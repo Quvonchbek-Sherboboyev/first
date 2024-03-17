@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bgc: orange;
+  --borderColor: black;
+  --borderWidth: 1px ;
+}
+
+.darkMode {
+  --bgc: rgb(10, 84, 144);
+  --borderColor: red;
+  --borderWidth: 3px ;
+}
+
+.container {
+  max-width: 1600px;
+  height: 100vh;
+  background-color: var(--bgc);
+  margin: auto;
+  transition: all 0.5s;
+}
+.container .toggleDarkMode {
+  padding: 10px 40px;
+  border: var(--borderWidth) solid var(--borderColor);
+  outline: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.container .dark {
+  display: none;
+}/*# sourceMappingURL=sty.css.map */
